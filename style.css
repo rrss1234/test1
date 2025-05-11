@@ -8,9 +8,11 @@
 
 .sidebar ul { list-style: none; padding: 0; }
 
-.sidebar ul li { padding: 10px; margin-bottom: 10px; background: #34495e; border-radius: 8px; cursor: pointer; transition: background 0.3s; }
+.sidebar ul li { display: flex; align-items: center; gap: 10px; padding: 10px; margin-bottom: 10px; background: #34495e; border-radius: 8px; cursor: pointer; transition: background 0.3s, transform 0.2s; }
 
 .sidebar ul li:hover { background: #3cb371; transform: scale(1.05); }
+
+.sidebar ul li img { width: 30px; height: 30px; border-radius: 5px; }
 
 .player { flex: 1; background: #000; display: flex; align-items: center; justify-content: center; animation: fadeIn 1.5s ease; }
 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamHub - লাইভ টিভি ও মুভি স্ট্রিমিং</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>StreamHub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">হোম</a></li>
+                <li><a href="#live-tv">লাইভ টিভি</a></li>
+                <li><a href="#movies">মুভিস</a></li>
+                <li><a href="#about">আমাদের সম্পর্কে</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="খুঁজুন...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>বিনামূল্যে লাইভ টিভি ও মুভি উপভোগ করুন</h2>
+                <p>যেকোনো সময়, যেকোনো ডিভাইসে স্ট্রিমিং করুন</p>
+                <button class="cta-button">এখনই দেখুন</button>
+            </div>
+        </section>
+
+        <section id="live-tv" class="live-tv">
+            <h2 class="section-title">লাইভ টিভি চ্যানেল</h2>
+            <div class="channel-list" id="channel-list">
+                <!-- Channels will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="movies" class="movies">
+            <h2 class="section-title">জনপ্রিয় মুভিস</h2>
+            <div class="movie-list" id="movie-list">
+                <!-- Movies will be loaded here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>StreamHub</h3>
+                <p>সেরা লাইভ টিভি ও মুভি স্ট্রিমিং প্লাটফর্ম</p>
+            </div>
+            <div class="footer-section">
+                <h3>লিংক</h3>
+                <ul>
+                    <li><a href="#">হোম</a></li>
+                    <li><a href="#live-tv">লাইভ টিভি</a></li>
+                    <li><a href="#movies">মুভিস</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>যোগাযোগ</h3>
+                <p>ইমেইল: contact@streamhub.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 StreamHub. সকল স্বত্ব সংরক্ষিত</p>
+        </div>
+    </footer>
+
+    <!-- Video Player Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="video-container">
+                <video id="stream-video" controls>
+                    <source src="" type="video/mp4">
+                    আপনার ব্রাউজার ভিডিও সমর্থন করে না।
+                </video>
+            </div>
+            <div class="video-info">
+                <h3 id="video-title"></h3>
+                <p id="video-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -12,18 +12,24 @@
         <div class="logo">
             <h1>StreamHub</h1>
         </div>
-        <nav>
-            <ul>
+        
+        <!-- 3 Dot Menu Button -->
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+        
+        <nav class="nav">
+            <ul class="nav-links">
                 <li><a href="#" class="active">হোম</a></li>
                 <li><a href="#live-tv">লাইভ টিভি</a></li>
                 <li><a href="#movies">মুভিস</a></li>
                 <li><a href="#about">আমাদের সম্পর্কে</a></li>
             </ul>
+            <div class="search-box">
+                <input type="text" placeholder="খুঁজুন...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
         </nav>
-        <div class="search-box">
-            <input type="text" placeholder="খুঁজুন...">
-            <button><i class="fas fa-search"></i></button>
-        </div>
     </header>
 
     <main>
@@ -46,6 +52,13 @@
             <h2 class="section-title">জনপ্রিয় মুভিস</h2>
             <div class="movie-list" id="movie-list">
                 <!-- Movies will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">আমাদের সম্পর্কে</h2>
+            <div class="about-content">
+                <p>StreamHub হল বাংলাদেশের সর্বাধুনিক লাইভ টিভি ও মুভি স্ট্রিমিং প্লাটফর্ম। আমরা সর্বোচ্চ মানের কন্টেন্ট প্রদান করে থাকি।</p>
             </div>
         </section>
     </main>

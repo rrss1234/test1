@@ -104,6 +104,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const videoPlayer = document.getElementById('stream-video');
     const videoTitle = document.getElementById('video-title');
     const videoDescription = document.getElementById('video-description');
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.querySelector('.nav');
 
     // Load channels
     function loadChannels() {
@@ -148,6 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         videoDescription.textContent = channel.description;
         videoModal.style.display = 'block';
         videoPlayer.play();
+        closeMenu(); // Close menu when playing video
     }
 
     // Play movie function
@@ -157,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
         videoDescription.textContent = `${movie.year} • ${movie.description}`;
         videoModal.style.display = 'block';
         videoPlayer.play();
+        closeMenu(); // Close menu when playing video
     }
 
     // Close modal
@@ -173,6 +177,26 @@ document.addEventListener('DOMContentLoaded', function() {
             videoPlayer.pause();
             videoPlayer.currentTime = 0;
         }
+    });
+
+    // Toggle menu
+    menuBtn.addEventListener('click', toggleMenu);
+
+    function toggleMenu() {
+        menuBtn.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+
+    function closeMenu() {
+        menuBtn.classList.remove('active');
+        nav.classList.remove('active');
+    }
+
+    // Close menu when clicking on nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            closeMenu();
+        });
     });
 
     // Initialize the page

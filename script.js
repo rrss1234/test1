@@ -1,37 +1,37 @@
 const channels = [
   {
-    name: "Movie All Time",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    name: "All Time Moveie",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7clnltpACgChJ2O1qYusEbZWHb5JyEm9FH9IhtQg7m2IHDBi_Vo8OJcI&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },
   {
     name: "Bangla Drams",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSXlcsosa6Z3i3aKhQVE609WGffEMO51pUA&usqp=CAU",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"
   },
   {
     name: "Bangla Music",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE22ua5A41qI6hE2oDRv4tto38C0c1fX0iiMEr5wm9QHfXt8A7LXM27iI&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8"
   },
   {
     name: "Hindi Music",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_JKx6F-FSKkdlt0LjupuFF03AcwTpOOHvHSSFxXFZ_BCpv3yg0PKXX4U&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8"
   },
 {
     name: "Gopal Bhar",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEHuyAxFukMWpcPBhx9U-NrFPj9OxMrUaXL3OXAolmwx93jnrN1qXeHU&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8"
   },
 {
     name: "Bangla Waz",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbadecRTCviFjIjvdIYXAzXRy0ryRVdI7jpGf3si5FpkuYhNaWgdLPZnU&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8"
 },
   {
     name: "Bangla Kirtan",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+ logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy9twYODkLXwBcfoNp9sEgUhCIr2QhDU8CEmeebYizVZel8aUY248jhN8&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209618/master.m3u8"
   }
 

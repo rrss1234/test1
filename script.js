@@ -5,6 +5,11 @@ const channels = [
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },
   {
+    name: "Bangla Drams",
+    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"
+  },
+  {
     name: "Bangla Music",
     logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8"
@@ -13,7 +18,23 @@ const channels = [
     name: "Hindi Music",
     logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8"
-  }
+  },
+  {
+    name: "Bangla Kirtan",
+    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209618/master.m3u8"
+  },
+{
+    name: "Gopal Bhar",
+    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8"
+  },
+{
+    name: "Bangla Waz",
+    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8"
+}
+
 ];
 
 let currentChannel = 0;

@@ -35,7 +35,7 @@ body {
 }
 
 .sidebar li:hover {
-  background: #333;
+  background: green;
 }
 
 .sidebar img {
@@ -74,10 +74,10 @@ button {
 }
 
 button:hover {
-  background: green;
+  background: #666;
 }
 
-@keyframes slideInLeft {
+@keyframes slideInRight {
   from { transform: translateX(-100%); }
   to { transform: translateX(0); }
 }

@@ -19,11 +19,6 @@ const channels = [
     logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8"
   },
-  {
-    name: "Bangla Kirtan",
-    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209618/master.m3u8"
-  },
 {
     name: "Gopal Bhar",
     logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
@@ -33,7 +28,12 @@ const channels = [
     name: "Bangla Waz",
     logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8"
-}
+},
+  {
+    name: "Bangla Kirtan",
+    logo: "https://i.postimg.cc/3RcqsQpk/tv-icon.webp",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209618/master.m3u8"
+  }
 
 ];
 

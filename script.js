@@ -27,12 +27,14 @@ function loadChannel(index) {
 
   setTimeout(() => {
     player = new Clappr.Player({
-      source: channel.url,
-      parentId: "#player",
-      poster: channel.logo,
-      width: "100%",
-      height: "100%"
-    });
+  source: channel.url,
+  parentId: "#player",
+  poster: channel.logo,
+  width: "100%",
+  height: "100%",
+  autoPlay: true,
+  mute: true
+});
     document.getElementById("player").style.opacity = 1;
   }, 300);
 }

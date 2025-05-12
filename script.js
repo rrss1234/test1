@@ -33,7 +33,7 @@ function loadChannel(index) {
   width: "100%",
   height: "100%",
   autoPlay: true,
-  mute: true
+  mute: false,
 });
     document.getElementById("player").style.opacity = 1;
   }, 300);

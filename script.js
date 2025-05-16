@@ -1,6 +1,6 @@
 const channels = [
   {
-    name: "All Time Moveie",
+    name: "Movies All Time",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7clnltpACgChJ2O1qYusEbZWHb5JyEm9FH9IhtQg7m2IHDBi_Vo8OJcI&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },

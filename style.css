@@ -35,7 +35,7 @@ body {
 }
 
 .sidebar li:hover {
-  background: orange;
+  background: #00ff00;
 }
 
 .sidebar img {
@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-  background: red;
+  background: #666;
 }
 
 @keyframes slideInLeft {

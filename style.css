@@ -35,7 +35,7 @@ body {
 }
 
 .sidebar li:hover {
-  background: green;
+  background: #666;
 }
 
 .sidebar img {

@@ -77,7 +77,7 @@ button:hover {
   background: #666;
 }
 
-@keyframes slideInRight {
+@keyframes slideInLeft {
   from { transform: translateX(-100%); }
   to { transform: translateX(0); }
 }

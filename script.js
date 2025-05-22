@@ -1,13 +1,18 @@
 const channels = [
   {
-    name: "Movies All Time",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7clnltpACgChJ2O1qYusEbZWHb5JyEm9FH9IhtQg7m2IHDBi_Vo8OJcI&s=10",
+    name: "All Time Movies",
+    logo: "https://i.postimg.cc/nVNDJ5bd/20250522-024451.jpg",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },
   {
     name: "Bangla Drams",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSXlcsosa6Z3i3aKhQVE609WGffEMO51pUA&usqp=CAU",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"
+  },
+  {
+    name: "Bangla Natok",
+    logo: "https://i.postimg.cc/6qPT58m2/20250522-024115.jpg",
+    url: "https://padmaonline.duckdns.org:8088/restream3/index.m3u8"
   },
   {
     name: "Bangla Music",

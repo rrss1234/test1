@@ -2,17 +2,17 @@ const channels = [
 
   {
     name: "Gazi Tv",
-    logo: "https://www.jagobd.com/wp-content/uploads/2024/11/gtv.jpg",
+    logo: "https://i.postimg.cc/CMrZ8hDz/Gtv.png",
     url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8"
   },
   {
     name: "Channel 9",
-    logo: "https://www.jagobd.com/wp-content/uploads/2015/10/ch9-150x150.jpg?x71442",
+    logo: "https://i.postimg.cc/0yDrh74w/Channel-9.png",
     url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8"
   },
   {
     name: "Channel I",
-    logo: "https://www.jagobd.com/wp-content/uploads/2015/10/chi-150x150.jpg?x71442",
+    logo: "https://i.postimg.cc/52d256tN/Channel-i.png",
     url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8"
   },
   {

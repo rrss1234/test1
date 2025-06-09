@@ -1,4 +1,11 @@
 const channels = [
+
+  {
+    name: "Gazi Tv",
+    logo: "https://www.jagobd.com/wp-content/uploads/2024/11/gtv.jpg",
+    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8"
+  },
+  
   {
     name: "All Time Movies",
     logo: "https://i.postimg.cc/nVNDJ5bd/20250522-024451.jpg",

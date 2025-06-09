@@ -1,6 +1,11 @@
 const channels = [
 
   {
+    name: "Colors Bangla",
+    logo: "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/00/Colors_Bangla_HD_prelaunch_%282016%29.png/revision/latest?cb=20210507224847",
+    url: "http://stvlive.net:8080/colorsbangla/index.m3u8/gazibdz.stream/playlist.m3u8"
+  },
+  {
     name: "Gazi Tv",
     logo: "https://i.postimg.cc/CMrZ8hDz/Gtv.png",
     url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8"

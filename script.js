@@ -5,7 +5,21 @@ const channels = [
     logo: "https://www.jagobd.com/wp-content/uploads/2024/11/gtv.jpg",
     url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8"
   },
-  
+  {
+    name: "Channel 9",
+    logo: "https://www.jagobd.com/wp-content/uploads/2015/10/ch9-150x150.jpg?x71442",
+    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8"
+  },
+  {
+    name: "Channel I",
+    logo: "https://www.jagobd.com/wp-content/uploads/2015/10/chi-150x150.jpg?x71442",
+    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8"
+  },
+  {
+    name: "Nexus Television",
+    logo: "https://www.jagobd.com/wp-content/uploads/2021/07/nexustv.png",
+    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8"
+  },
   {
     name: "All Time Movies",
     logo: "https://i.postimg.cc/nVNDJ5bd/20250522-024451.jpg",

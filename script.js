@@ -1,34 +1,14 @@
 const channels = [
-
-  {
-    name: "Colors Bangla",
-    logo: "https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/00/Colors_Bangla_HD_prelaunch_%282016%29.png/revision/latest?cb=20210507224847",
-    url: "http://stvlive.net:8080/colorsbangla/index.m3u8/gazibdz.stream/playlist.m3u8"
-  },
-  {
-    name: "Gazi Tv",
-    logo: "https://i.postimg.cc/CMrZ8hDz/Gtv.png",
-    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8"
-  },
-  {
-    name: "Channel 9",
-    logo: "https://i.postimg.cc/0yDrh74w/Channel-9.png",
-    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8"
-  },
-  {
-    name: "Channel I",
-    logo: "https://i.postimg.cc/52d256tN/Channel-i.png",
-    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channeli-8-org.stream/playlist.m3u8"
-  },
-  {
-    name: "Nexus Television",
-    logo: "https://www.jagobd.com/wp-content/uploads/2021/07/nexustv.png",
-    url: "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8"
-  },
+  
   {
     name: "All Time Movies",
     logo: "https://i.postimg.cc/nVNDJ5bd/20250522-024451.jpg",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
+  },
+  {
+    name: "Dhamaka Movies",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7v4764AaDWb2uadivqO1_A6E64cdwX15HzWzW4kSUqIucl6nfEgAM3PE&s=10",
+    url: "https://cdn-1.pishow.tv/live/235/master.m3u8v.stream/playlist.m3u8"
   },
   {
     name: "Bangla Drams",

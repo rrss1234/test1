@@ -6,9 +6,9 @@ const channels = [
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },
   {
-    name: "Dhamaka Movies",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7v4764AaDWb2uadivqO1_A6E64cdwX15HzWzW4kSUqIucl6nfEgAM3PE&s=10",
-    url: "https://cdn-1.pishow.tv/live/235/master.m3u8v.stream/playlist.m3u8"
+    name: "Kolkata Movies",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0DZPlqJPVFrdtyeHW9_Ib6CHpgutrwiT6j5GLiIGjg4S1bfFNHRUxKnz&s=10",
+    url: "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8"
   },
   {
     name: "Bangla Drams",

@@ -26,11 +26,6 @@ const channels = [
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"
   },
   {
-    name: "Ahil Tv HD",
-    logo: "https://i.postimg.cc/6qPT58m2/20250522-024115.jpg",
-    url: "https://padmaonline.duckdns.org:8088/restream3/index.m3u8"
-  },
-  {
     name: "Bangla Music",
     logo: "https://i.postimg.cc/XYc8gBhr/20250522-025321.jpg",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8"

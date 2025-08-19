@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live TV Player</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Rs Live 247</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
 </head>
 <body>
-
-    <div class="container">
-        <div class="main">
-            <div id="player-container">
-                <div id="player"></div>
-            </div>
-            <div class="controls">
-                <button onclick="prevChannel()">⏮️ Prev</button>
-                <button onclick="nextChannel()">Next ⏭️</button>
-            </div>
-        </div>
-        <div class="sidebar">
-            <input type="text" id="channelSearch" placeholder="Search channels...">
-            <ul id="channelList"></ul>
-        </div>
+  <div class="container">
+    <div class="main">
+      <div id="player"></div>
+      <div class="controls">
+        <button onclick="prevChannel()">⏮️ Prev</button>
+        <button onclick="nextChannel()">⏭️ Next</button>
+      </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/clappr@0.3.13/dist/clappr.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="script.js"></script>
-    
+    <div class="sidebar">
+      <h2>All Channels</h2>
+      <ul id="channelList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

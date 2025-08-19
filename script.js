@@ -18,7 +18,7 @@ const channels = [
     {
       "name": "T Sports 2",
       "group-title": "SPORTS",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrx9Vf2tgrr3jdgFPrpu1jEE_M7RGIgK56p02C9a1AzbWB4D63kX5GMoRsOiekjFbU46ObpSuKCJpgBFz9TtsX0aiGGeoqAq2Opc5VuC2UVwUR4a0l0gvv3-JkMxqwjtuUWc-D3ohVFYb5LVvHhZY2WG2Ayjv8Zc8/s1600/t%20sports.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrx9Vf2tgrr3jdgFPrpu1jEE_M7RGIgK56p02C9a1AzbWB4D63kX5GMoRsOiekjFbU46ObpSuKCJpgBFz9TtsX0aiGGeoqAq2Opc5VuC2UVwUR4a0l0gvv3-JkMxqwjtuUWc-D3ohVFYb5LVvHhZY4pqtVfeTO0PWmHryZWG2Ayjv8Zc8/s1600/t%20sports.png",
       "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
     },
     {
@@ -421,7 +421,9 @@ function loadChannel(index) {
   const channel = channels[index];
   player = new Clappr.Player({
     source: channel.url,
-    parentId: '#player'
+    parentId: '#player',
+    autoPlay: true,
+    mute: true // ✅ এখানে পরিবর্তন করা হয়েছে
   });
   currentChannel = index;
 }
@@ -444,7 +446,7 @@ function renderChannelList(filteredChannels) {
 
   channelsToRender.forEach((channel, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<img src="${channel.logo}" alt=""> ${channel.name}`;
+    li.innerHTML = `<img src=\"${channel.logo}\" alt=\"\"> ${channel.name}`;
     li.addEventListener("click", () => {
       // Find the index of the clicked channel in the original array
       const originalIndex = channels.findIndex(c => c.name === channel.name);

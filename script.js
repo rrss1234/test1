@@ -6,16 +6,6 @@ const channels = [
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
   },
   {
-    name: "SGCN CINEM",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJq8DhC4-umbKOQs5siiM6RtD5q8JgF3k6LVdU4AKP-6_El07i0dbdxlRq&s=10",
-    url: "https://freedishbhai.vercel.app/bpk-tv/SGCN_Hindi_MOB/index.m3u8"
-  },
-  {
-    name: "SCGN সিনেমা",
-    logo: "https://www.mysgcn.com/img/sgcnchannels/sgcn_bangla_cinema.png",
-    url: "https://freedishbhai.vercel.app/bpk-tv/SGCN_Bangla_MOB/index.m3u8"
-  },
-  {
     name: "Kolkata Movies",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0DZPlqJPVFrdtyeHW9_Ib6CHpgutrwiT6j5GLiIGjg4S1bfFNHRUxKnz&s=10",
     url: "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8"
@@ -493,7 +483,7 @@ const channels = [
 ];
 
 // 🔁 এই URL টা হবে সব চ্যানেলের জন্য কমন লোগো (প্লে শুরুর আগে দেখা যাবে)
-const defaultPoster = "https://i.postimg.cc/Gt7rd4zD/20250609-120504.jpg";
+const defaultPoster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkVzfaWwSZ6TyurUh7tbgyDe457eI0uWTZg&usqp=CAU";
 
 let currentChannel = 0;
 let player = null;

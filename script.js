@@ -410,7 +410,7 @@ const channels = [
   {
     name: "NEXUS TV",
     logo: "https://s3.aynaott.com/storage/db85422953e3a1652e26b0a14eed92a9",
-    url: "https://tvsen6.aynaott.com/nexustv/index.m3u8?e=1753741205&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=81b0a802403aad34379983da189cd5f97"
+    url: "https://tvsen6.aynaott.com/nexustv/index.m3u8?e=1753741205&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=81b0a802403aad3437983da189cd5f97"
   }
 ];
 

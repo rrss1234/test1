@@ -25,7 +25,7 @@ body {
 
 #player-container {
     width: 100%;
-    padding-top: 56.25%;
+    height: 200px;
     position: relative;
     max-height: 100%;
 }
@@ -86,6 +86,9 @@ button:hover {
   padding: 10px;
   cursor: pointer;
   transition: background 0.3s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* এখানে নতুন কোড যোগ করা হয়েছে */
 }
 
 .sidebar li:hover {
@@ -96,4 +99,6 @@ button:hover {
   height: 20px;
   margin-right: 10px;
   vertical-align: middle;
+  border-radius: 50%; /* এখানে নতুন কোড যোগ করা হয়েছে */
+  object-fit: cover;
 }

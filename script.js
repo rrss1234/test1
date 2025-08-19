@@ -1,3 +1,6 @@
+let player;
+let currentChannel = 0;
+
 const channels = [
   
     {
@@ -15,7 +18,7 @@ const channels = [
     {
       "name": "T Sports 2",
       "group-title": "SPORTS",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrx9Vf2tgrr3jdgFPrpu1jEE_M7RGIgK56p02C9a1AzbWB4D63kX5GMoRsOiekjFbU46ObpSuKCJpgBFz9TtsX0aiGGeoqAq2Opc5VuC2UVwUR4a0l0gvv3-JkMxqwjtuUWc-D3ohVFYb5LVvHhZY4pqtVfeTO0PWmHryZWG2Ayjv8Zc8/s1600/t%20sports.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrx9Vf2tgrr3jdgFPrpu1jEE_M7RGIgK56p02C9a1AzbWB4D63kX5GMoRsOiekjFbU46ObpSuKCJpgBFz9TtsX0aiGGeoqAq2Opc5VuC2UVwUR4a0l0gvv3-JkMxqwjtuUWc-D3ohVFYb5LVvHhZY2WG2Ayjv8Zc8/s1600/t%20sports.png",
       "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
     },
     {
@@ -407,4 +410,64 @@ const channels = [
   {
     name: "NEXUS TV",
     logo: "https://s3.aynaott.com/storage/db85422953e3a1652e26b0a14eed92a9",
-    url: "https://tvsen6.aynaott.com/nexustv/index.m3u8?e=1753741205&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=81b0a802403aad3437983da189cd...
+    url: "https://tvsen6.aynaott.com/nexustv/index.m3u8?e=1753741205&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=81b0a802403aad3437983da189cd5f97"
+  }
+];
+
+function loadChannel(index) {
+  if (player) {
+    player.destroy();
+  }
+  const channel = channels[index];
+  player = new Clappr.Player({
+    source: channel.url,
+    parentId: '#player'
+  });
+  currentChannel = index;
+}
+
+function prevChannel() {
+  currentChannel = (currentChannel > 0) ? currentChannel - 1 : channels.length - 1;
+  loadChannel(currentChannel);
+}
+
+function nextChannel() {
+  currentChannel = (currentChannel < channels.length - 1) ? currentChannel + 1 : 0;
+  loadChannel(currentChannel);
+}
+
+// Function to render the channel list
+function renderChannelList(filteredChannels) {
+  const list = document.getElementById("channelList");
+  list.innerHTML = "";
+  const channelsToRender = filteredChannels || channels;
+
+  channelsToRender.forEach((channel, index) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<img src="${channel.logo}" alt=""> ${channel.name}`;
+    li.addEventListener("click", () => {
+      // Find the index of the clicked channel in the original array
+      const originalIndex = channels.findIndex(c => c.name === channel.name);
+      if (originalIndex !== -1) {
+        loadChannel(originalIndex);
+      }
+    });
+    list.appendChild(li);
+  });
+}
+
+// Search functionality
+const searchInput = document.getElementById("channelSearch");
+searchInput.addEventListener("input", (e) => {
+  const searchTerm = e.target.value.toLowerCase();
+  const filteredChannels = channels.filter(channel => 
+    channel.name.toLowerCase().includes(searchTerm)
+  );
+  renderChannelList(filteredChannels);
+});
+
+// Load the first channel and render the full list when the page loads
+window.onload = function() {
+  loadChannel(currentChannel);
+  renderChannelList();
+};

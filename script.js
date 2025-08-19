@@ -1,46 +1,6 @@
 const channels = [
   
   {
-    name: "All Time Movies",
-    logo: "https://i.postimg.cc/nVNDJ5bd/20250522-024451.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209612/master.m3u8"
-  },
-  {
-    name: "Kolkata Movies",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx0DZPlqJPVFrdtyeHW9_Ib6CHpgutrwiT6j5GLiIGjg4S1bfFNHRUxKnz&s=10",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209627/master.m3u8"
-  },
-  {
-    name: "Bangla Drams",
-    logo: "https://i.postimg.cc/G20mh9Lj/20250522-025124.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8"
-  },
-  {
-    name: "Bangla Music",
-    logo: "https://i.postimg.cc/XYc8gBhr/20250522-025321.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209587/master.m3u8"
-  },
-  {
-    name: "Hindi Music",
-    logo: "https://i.postimg.cc/mkS3kyGX/20250522-030456.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209592/master.m3u8"
-  },
-{
-    name: "Gopal Bhar",
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrBhuJjFmg5TZk7hVQEBtoOs7ejO-gwOOLLe9IAfZvsBblMLMZc0ZBsM&s=10",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8"
-  },
-{
-    name: "Bangla Waz",
-    logo: "https://i.postimg.cc/26DBWLGP/20250522-030650.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8"
-},
-  {
-    name: "Bangla Kirtan",
- logo: "https://i.postimg.cc/HWJVL2TV/20250522-030919.jpg",
-    url: "https://cloudfrontnet.vercel.app/tplay/playout/209618/master.m3u8"
-  },
-  {
     name: "Channel I",
     logo: "https://s3.aynaott.com/storage/28931315743beff50fc2c1312b1f8261",
     url: "https://tvsen6.aynaott.com/channeli/index.m3u8?e=1753741199&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=29e9b3ff219922de66c032adb4d6cca5"
@@ -483,7 +443,7 @@ const channels = [
 ];
 
 // 🔁 এই URL টা হবে সব চ্যানেলের জন্য কমন লোগো (প্লে শুরুর আগে দেখা যাবে)
-const defaultPoster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkVzfaWwSZ6TyurUh7tbgyDe457eI0uWTZg&usqp=CAU";
+const defaultPoster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmQJzitHoIGlOvdT952cPCLXQSF1_wo_A2gh4Wzcc9ZyIJhUjCVkEBoeg&s=10";
 
 let currentChannel = 0;
 let player = null;

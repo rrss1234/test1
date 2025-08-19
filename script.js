@@ -423,7 +423,7 @@ function loadChannel(index) {
     source: channel.url,
     parentId: '#player',
     autoPlay: true,
-    mute: true // ✅ এখানে পরিবর্তন করা হয়েছে
+    mute: true
   });
   currentChannel = index;
 }
@@ -446,7 +446,7 @@ function renderChannelList(filteredChannels) {
 
   channelsToRender.forEach((channel, index) => {
     const li = document.createElement("li");
-    li.innerHTML = `<img src=\"${channel.logo}\" alt=\"\"> ${channel.name}`;
+    li.innerHTML = `<img src="${channel.logo}" alt=""> ${channel.name}`;
     li.addEventListener("click", () => {
       // Find the index of the clicked channel in the original array
       const originalIndex = channels.findIndex(c => c.name === channel.name);

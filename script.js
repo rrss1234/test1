@@ -1,5 +1,274 @@
 const channels = [
   
+    {
+      "name": "WWE",
+      "group-title": "SPORTS",
+      "logo": "https://i.postimg.cc/0jv7Xbqz/wwe.jpg",
+      "url": "https://smart.bengaldigital.live/WWE/index.m3u8"
+    },
+    {
+      "name": "T Sports 1",
+      "group-title": "SPORTS",
+      "logo": "https://i.postimg.cc/L6VyzMM9/tsports.jpg",
+      "url": "https://tvsen5.aynaott.com/tsports/index.m3u8?e=1753741223&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=286a45e3006c0b412ce19722499f2126"
+    },
+    {
+      "name": "T Sports 2",
+      "group-title": "SPORTS",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrx9Vf2tgrr3jdgFPrpu1jEE_M7RGIgK56p02C9a1AzbWB4D63kX5GMoRsOiekjFbU46ObpSuKCJpgBFz9TtsX0aiGGeoqAq2Opc5VuC2UVwUR4a0l0gvv3-JkMxqwjtuUWc-D3ohVFYb5LVvHhZY4pqtVfeTO0PWmHryZWG2Ayjv8Zc8/s1600/t%20sports.png",
+      "url": "https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8"
+    },
+    {
+      "name": "A Sports",
+      "group-title": "SPORTS",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn9GcSk9C68th1pite23d5vit1EI6d35XMuVbcuqhaPLKxTVoeSSktHCUA5rFdK&s=10",
+      "url": "https://stream2.aryzap.com/v1/0185aab4885d1ea5578a03c0bfd5/0185aab4ab4e1ea540e60615c5d4/main.m3u8"
+    },
+    {
+      "name": "Star Sports 1",
+      "group-title": "SPORTS",
+      "logo": "https://i.postimg.cc/HWXvkyZ7/stars1.jpg",
+      "url": "https://live20.bozztv.com/akamaissh101/ssh101/starsports/chunks.m3u8"
+    },
+    {
+      "name": "Ten Cricket",
+      "group-title": "SPORTS",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo1clcgXKVu87qdMMczrTAGwcnEgTi6AUW0lncEdjGlNSgKIGQ3wXeJnE4&s=10",
+      "url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/index.m3u8"
+    },
+    {
+      "name": "Willow Sports",
+      "group-title": "SPORTS",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaejQ5yYMfDTHbC8SP-Bgp6S2nM_QqaO_skQ&usqp=CAU",
+      "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1753741230&u=9a031201-22d8-4f7e-9516-7d246a8fedc3&token=5fca30251e531337b5339bbba78bd449"
+    },
+    {
+      "name": "Sony Ten 1",
+      "group-title": "SPORTS",
+      "logo": "https://i.ibb.co/bRbDrQgX/ea3358b9-2bec-4615-a889-daa2e396c74c.png",
+      "url": "http://103.110.111.36:8081/live/ten1_720p/chunks.m3u8"
+    },
+    {
+      "name": "Sony Ten 2",
+      "group-title": "SPORTS",
+      "logo": "https://i.ibb.co/GQx8hNbY/a664bf2a-af9c-4e79-89df-50a40a6e66.png",
+      "url": "http://103.110.111.36:8081/live/spten2_720p/playlist.m3u8"
+    },
+    {
+      "name": "Sony Ten 5",
+      "group-title": "SPORTS",
+      "logo": "https://i.ibb.co/N65GDCVZ/241705c1-06a9-4694-92c6-0013d1879e42.png",
+      "url": "http://103.110.111.36:8081/live/spten5_720p/playlist.m3u8"
+    },
+    {
+      "name": "RTA Sports",
+      "group-title": "SPORTS",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwZU-ecqYXjJgAdwoHkoQBNVu3raFFsVD5SzB3Og2vNtaQwAwaGHG6Uw&s=10",
+      "url": "https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/variant.m3u8"
+    },
+    {
+      "name": "STAR JALSHA HD",
+      "group-title": "Kolkata",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3W9qiYW7toPvoJs-jvG0zhxuFFp1EQq1OfHnMWGVQSzeH3bXz78Md696q&s=10",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/starjalshahd/master.m3u8"
+    },
+    {
+      "name": "STAR JALSHA",
+      "group-title": "Kolkata",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Star_Jalsha_logo_2023.png/640px-Star_Jalsha_logo_2023.png",
+      "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8"
+    },
+    {
+      "name": "JALSHA MOVIES HD",
+      "group-title": "Kolkata",
+      "logo": "https://banner2.cleanpng.com/20180623/qf/aazug0foc.webp",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/jalshamovieshd/master.m3u8"
+    },
+    {
+      "name": "Zee Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/ZRjjSzFd/20250403-190441.png",
+      "tvg-id": "2",
+      "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8"
+    },
+    {
+      "name": "Colors Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl1AgHbp3MoXRBzQPjR1DcUj1hgC6e45uOl5-C9QI-0jpxoOUWUQdI8n4&s=10",
+      "tvg-id": "3",
+      "url": "https://smart.bengaldigital.live/Zee-Bangla-Cinema/index.m3u8"
+    },
+    {
+      "name": "Colors Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/bJFbgy93/colorsbangla.png",
+      "tvg-id": "3",
+      "url": "https://tvsen5.aynaott.com/u3LkNQ7UHhFX/tracks-v1a1/mono.ts.m3u8"
+    },
+    {
+      "name": "Eiter10 Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/fypczz3J/enter10bangla.png",
+      "tvg-id": "33",
+      "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8"
+    },
+    {
+      "name": "Sangeet Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYLijjughYF51FVjWeUtGKFckDYqm8B1elAgERP4HIDMf8KpDYC7LpZ4&s=10",
+      "url": "https://cdn-4.pishow.tv/live/1143/master.m3u8"
+    },
+    {
+      "name": "SANANDA TV",
+      "group-title": "Kolkata",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTylaokf1TCdYunrrVZdAbn9A1lolFbzxMEmLAOGipEbT9xQaqF4-eo27nn&s=10",
+      "url": "https://live.sanonda.tv/sanonda/index.m3u8"
+    },
+    {
+      "name": "SONY AATH HD",
+      "group-title": "Kolkata",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/d/d4/Sony_Aath_new.png",
+      "url": "http://stvlive.net:8080/sonyaath/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "name": "Tv9 Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/pXb0Nvjp/20250403-191930.png",
+      "tvg-id": "6",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/main.m3u8"
+    },
+    {
+      "name": "Bangla Plus",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/4y7TM4dJ/Bangla-Plus.png",
+      "tvg-id": "7",
+      "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8"
+    },
+    {
+      "name": "Tara Cenema",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/8c2VV8JL/20241103-070341.png",
+      "tvg-id": "14",
+      "url": "http://103.145.48.150:90/laosat24/taratv/index.m3u8"
+    },
+    {
+      "name": "Amar Digital",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/BnGGY0G0/Amar-Digital.png",
+      "tvg-id": "8",
+      "url": "https://live-stream.utkalbongo.com/utkalbongo/stream2/hls/amarbanglatwolivestream.m3u8"
+    },
+    {
+      "name": "Amar Bangla",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/4dnC74pz/Amar-Bangla.png",
+      "tvg-id": "10",
+      "url": "https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8"
+    },
+    {
+      "name": "Moon TV",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/027N2Zk9/Mon.png",
+      "tvg-id": "16",
+      "url": "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8"
+    },
+    {
+      "name": "DD বাংলা",
+      "group-title": "Kolkata",
+      "logo": "https://i.postimg.cc/kM8sH9Jz/20250407-152000.png",
+      "url": "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/8fd382eb-7285-4e25-be5a-3e5795672ffe/2.m3u8"
+    },
+    {
+      "name": "Deepto TV HD",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png",
+      "tvg-id": "134",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8"
+    },
+    {
+      "name": "Bangla Vision",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png",
+      "tvg-id": "100",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8"
+    },
+    {
+      "name": "BTV",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561595482.png",
+      "tvg-id": "122",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
+    },
+    {
+      "name": "HUM TV",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963480044.png",
+      "tvg-id": "65",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8"
+    },
+    {
+      "name": "NTV",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png",
+      "tvg-id": "99",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
+    },
+    {
+      "name": "ATN Bangla",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740553740665.png",
+      "tvg-id": "131",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+    },
+    {
+      "name": "Channel I HD",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png",
+      "tvg-id": "132",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
+    },
+    {
+      "name": "Jamuna TV",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png",
+      "tvg-id": "97",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
+    },
+    {
+      "name": "ATN News",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png",
+      "tvg-id": "93",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
+    },
+    {
+      "name": "Channel 24 HD",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png",
+      "tvg-id": "94",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
+    },
+    {
+      "name": "Ekattor HD",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png",
+      "tvg-id": "102",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8"
+    },
+    {
+      "name": "Independent TV",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png",
+      "tvg-id": "96",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
+    },
+    {
+      "name": "Somoy",
+      "group-title": "Akash Go",
+      "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png",
+      "tvg-id": "98",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8"
+    },
   {
     name: "Channel I",
     logo: "https://s3.aynaott.com/storage/28931315743beff50fc2c1312b1f8261",

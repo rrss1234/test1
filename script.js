@@ -413,7 +413,7 @@ const channels = [
 ];
 
 // 🔁 এই URL টা হবে সব চ্যানেলের জন্য কমন লোগো (প্লে শুরুর আগে দেখা যাবে)
-const defaultPoster = "https://i.postimg.cc/Gt7rd4zD/20250609-120504.jpg";
+const defaultPoster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEiEhvjeDh_Cr2Wgt6NFK_CrBSkPiQB9Lqfw&usqp=CAU";
 
 let currentChannel = 0;
 let player = null;
